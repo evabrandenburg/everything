@@ -1,0 +1,60 @@
+<doctype html>
+<html>
+
+	<head>
+
+		<style>
+
+			.container {
+				border: 1px solid black;
+				width: 960px;
+				margin: 0 auto;
+			}
+
+			.box {
+				height: 50px;
+				width:	33%;
+				float: left;
+			}
+
+			.one {
+				background-color: red;
+			}
+
+			.two {
+				background-color: blue;
+			}
+
+			.three {
+				background-color: yellow;
+			}
+
+			.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+				<div class="box one"></div>
+				<div class="box two"></div>
+				<div class="box three"></div>
+
+				<div></div>
+		</div>
+
+	</body>

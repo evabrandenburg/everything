@@ -1,0 +1,130 @@
+body {background-color:		black;}
+
+.container {
+	font-family:			sans-serif;
+	background-image:		url(../pic/background.JPG);
+	background-size: 		100%;
+	width:					860px;
+	height:					1000px;
+	color:					white;
+	margin:					0px auto;
+	padding:				0px;
+}
+
+.container2 {
+	font-family:			sans-serif;
+	background-color:		#FCDF00;
+	background-size: 		100%;
+	width:					860px;
+	height:					1000px;
+	color:					white;
+	margin:					0px auto;
+	padding:				0px;
+
+}
+
+
+h1 {
+	width:					800px;
+	height:					50px;
+	background-color:		rgba(0,0,0,0.5);
+	text-align:				center;
+	margin:					20px auto;
+	padding: 				30px;
+	font-size:				200%;
+	-webkit-transition: -webkit-transform 1s, background-color 1s, font-size 1s, width 1s, height 1s;
+}
+
+h1:hover {
+  font-size:				300%;
+  height:					100px;
+  line-height:				1.5;
+  background-color:			rgba(0,0,0,0.9);
+
+}
+
+.eva {
+  width: 					800px;
+  height: 					100px;
+  background-color:			rgba(0,0,0,0.5);
+  margin: 					30px auto;
+  line-height:				1.5;
+  padding:					50px;
+}
+
+.art, .design {
+  width: 					100px;
+  height: 					75px;
+  text-align: 				center;
+  background-color:			rgba(0,0,0,0.5);
+  -webkit-transition: -webkit-transform 1s, background-color 1s, font-size 1s, width 1s, height 1s;
+  margin: 					80px;
+  padding:					20px;
+  font-size:				200%;
+
+}
+
+.art {
+	float:					right;
+}
+
+.design {
+	float:					left;
+}
+
+.art:hover, .design:hover {
+  font-size:				400%;
+  width:					200px;
+  height:					150px;
+  background-color:			rgba(0,0,0,0.9);
+  padding:					40px;
+
+}
+
+a {
+	color:					white;
+	text-decoration:		none;
+}
+
+a:hover: {
+	color:					black;
+}
+
+
+footer: {
+	clear:					all;
+}
+
+.tableRow {
+	display:					table-row;
+}
+
+.tableContainer {
+	display:					table;
+}
+
+.main{
+	display:					table-cell;	
+	padding:					50px;
+	}
+
+.wendybite, .one {
+	display:					table-cell;
+	margin:						50px;
+	/*-webkit-transition: webkit-transform 1s width 1s height 1s;*/
+}
+
+.wendybite {
+	background-image:			url(../pic/wendybite.png);
+	background-size:			300px;
+	margin:						50px;
+}
+
+.holder {
+	width:						200px;
+	height:						150px;
+
+}
+
+
+

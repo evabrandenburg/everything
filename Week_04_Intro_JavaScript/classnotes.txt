@@ -1,0 +1,52 @@
+Good morning!
+
+1** js review
+a** js runtime and how to include js
+b** variables: numbers, strings, booleans 
+c** basic vars review: up to #6
+
+2** programming structs review
+a** revisit psuedo code (thermostat stuff)
+i** conditionals
+ii** loops
+iii** functions
+*********ARGUMENTS!! -- maybe write a few functions?
+
+== <CODE ALONG>: score keeper: http://codepen.io/nevan/pen/hAjtq ==
+we will focus on how we can use functions to get this working (without DOM) first
+== </CODE ALONG> ==
+
+== <CODE ALONG>: comparator: http://codepen.io/nevan/pen/BkdqI ==
+we will focus on combining functions with conditionals
+== </CODE ALONG> ==
+
+== <LAB> ==
+Write a temperature converter
+** it should take an input value in C
+** it should output in DOM the F value
+** you must use a function for the core conversion (google for this)
+== </LAB> ==
+
+3** advanced variables
+a** arrays: use cases -- why an array? (graphs, temperatures, heights, math, marquee)
+i** what kind of stuff goes in an array
+b** arrays: usage -- create, read, update, delete
+c** arrays: pset up to #6
+
+4** loops
+a** basic mechanics 
+b** arrays: pset from #7 -> done
+i** go back to #4 in pset and do this using an array
+
+== <CODE ALONG>: http://codepen.io/nevan/pen/kBItz ==
+Rewrite this code to use an array and ONE function
+== </CODE ALONG> ==
+
+== <CODE ALONG>: http://codepen.io/nevan/pen/uBkEr ==
+putting it all together
+== </CODE ALONG> ==
+
+5** objects
+a** basic definition
+b** relation to javascript + jquery (DOM)
+

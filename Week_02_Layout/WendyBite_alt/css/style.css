@@ -1,0 +1,45 @@
+body {
+	background-color:			#ccc;
+}
+
+.container {					
+	width:						860px;
+	border:						5px solid #777;
+	margin:						20px auto;
+	padding:					25px;
+}
+
+.container h1 {
+	text-align:					center;
+	color:						white;
+	font-style:					italic;
+	font-size:					52px;
+}
+
+nav {
+	text-align: 				center;
+	padding:					20px 0px;
+}
+
+.top-nav {
+	color:						#0c9;
+	font-weight:				bold;
+	font-size:					22px;
+	-webkit-transition:			color 1.5s;
+}
+
+.top-nav.active-link {
+	color:						white;
+	text-decoration:			none;
+}
+
+.top-nav.first-link {
+	border-right:				1px solid white;
+	padding-right: 				10px;
+	margin-right: 				10px;;
+}
+
+.top-nav:hover {
+	color:						red;
+}						
+

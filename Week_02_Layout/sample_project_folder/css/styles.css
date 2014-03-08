@@ -1,0 +1,67 @@
+/* YOU ARE IN: sample_project_folder/css/styles.css */
+
+#container {
+	margin:							50px auto; 
+	width:							960px;
+	font-family:					sans-serif;
+	line-height:					1.5;
+}
+
+header {
+	width 100%
+}
+
+
+
+.blog {
+	float:							left;
+	width:							60%;
+	margin:							50 px;
+}
+
+.header_text, h1, h2 {
+	display:						inline-block;
+	margin:							10px;
+
+}
+
+
+
+.sidebar {
+	float:							left;
+	width:							40%;
+	margin-top: 					50px;
+}
+
+
+.top_nav {
+	background-color:				black;
+	padding:						20px;
+	color:							white;
+	text-align: 					center;
+}
+
+
+nav {margin:						10px;}
+
+footer {
+	clear:							both;
+}
+
+article {
+	padding:						20px;
+}
+
+p {
+	border-bottom:					1px solid black;
+	padding-bottom: 				40px;
+}
+
+article p:first-letter {
+	font-size: 						70px;
+	color:							gray;
+	float:							left;
+	padding-right:					20px;
+
+}
+

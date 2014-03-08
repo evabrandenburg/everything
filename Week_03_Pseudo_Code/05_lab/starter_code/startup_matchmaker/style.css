@@ -1,0 +1,62 @@
+/* YOU ARE IN: matchmaker/css/styles.css */
+
+.container {
+	width: 100%;
+}
+
+/***********************
+	HEADER STYLES 
+************************/
+header {
+	background-color: black;
+	width: 100%;
+	overflow: hidden;
+}
+
+.title {
+	float: left;
+	padding: 10px 30px;
+	color: yellow;
+	font-size: 32px;
+}
+
+.nav {
+	padding: 16px 30px;
+	float: right;
+	color: yellow;
+	font-size: 20px;
+	overflow: hidden;
+}
+
+.nav li {
+	float: left;
+	padding: 0px 10px;
+}
+.nav li strong {
+	font-weight: bolder;
+}
+.nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/***********************
+	MAIN-CONTENT STYLES 
+************************/
+.main-content {
+	background-image: url(images/coworking.jpg );
+	background-size: cover;
+}
+
+.top-banner {}
+
+.main-rows {
+	background-color: purple;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+}

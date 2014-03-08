@@ -1,0 +1,51 @@
+Hello, Wrold! 
+
+http://xkcd.com/927/
+
+** INTRODUCTIONs
+
+** FINAL PROJECT OVERVIEW
+
+** OFFICE HOURS
+	** FLOAT DUTY VS TLK.IO DUTY
+
+** GUTS OF A WEB PAGE REQUEST
+	** What happens when you type in http://www.google.com into your navigation bar in the browser?
+		** http://stackoverflow.com/questions/2092527/what-happens-when-you-type-in-a-url-in-browser
+
+** WEB PAGE FILE STRUCTURE AND YOU
+	** relative URLs vs absolute URLs
+	** how to go up or down the tree ( in other words: .. )
+		** boxes withing boxes ( within boxes within boxes.. )
+
+** HOW TO GET ON THE INTERNETS: FTP
+	** why it's useful
+	** filezilla
+	** how to use it
+	** INFO
+		** sftp://studio.generalassemb.ly
+		** student
+		** yellowpencil
+		** port22
+
+** HTML Basics
+	** HTML tags
+	** HTML4/HTML5
+	** HTML attributes
+	** ids/classes
+		** how to use
+	** some basic HTML elements
+		** div, span, ul, li, h1-h6, p, etc
+		** inline vs block
+	** how to find stuff on the internets 
+	** GA PRESS RELEASE
+	** COOKIE RECIPE
+
+** CSS Basics 
+	** selectors 101
+		** specificity?
+		** ids vs classes vs tags
+	** display?
+	** borders 
+	** lis
+	** WENDY G. BITE

@@ -1,0 +1,102 @@
+body {
+	background-color: 			#444444;
+	color:						white;	
+	border-style:				solid;
+	border-width:				5px;
+	border-color:				gray;
+	padding:					50px;	
+	margin:						30px;	
+	line-height:				150%;
+	font-size:					18px;			
+}
+
+img {
+	float: 						right;
+	border-style:				solid;
+	border-width:				1px;
+	border-color:				gray;
+	padding:					5px;
+	margin-left:				20px;
+}
+
+
+nav {
+	font-family:				sans-serif;
+	text-align:					center;
+	padding-top:				0px;
+	padding-bottom:				3px;
+	color:						#999999;
+}
+
+h1 {
+	font-family:				Georgia, serif;
+	font-weight:				lighter;
+	text-align:					center;
+	font-style:					italic;
+	margin-top:					15px;
+	margin-bottom:				33px;
+
+}
+
+h2 {
+	font-family:				sans-serif;
+	margin-bottom:				30px;
+}
+
+p {
+	font-family: 				Georgia, serif;
+	font-weight:				lighter;
+	margin-top:					0px;
+}
+
+hr {
+	margin-top:					30px;
+	margin-bottom:				35px;
+	border-color:				gray;
+	border-top:					1px;
+}
+
+a {
+	font-weight:				bold;
+	color:						#00CC99;
+}
+
+h3 {
+	font-family:				sans-serif;
+	letter-spacing:				2px;
+	color:						gray;
+	font-size:					18px;
+	margin-top:					40px;
+	color:						#BBBBBB;
+}
+
+h4{
+	font-family:				sans-serif;
+	font-weight:				lighter;
+	margin-bottom:				0px;
+	color:						white;
+
+}
+
+small {
+	font-weight:				lighter;
+	color:						#BBBBBB;
+}
+
+ul {
+	list-style: 				square;
+	color:						#BBBBBB;
+}
+
+.education {
+	line-height: 				2px;
+	font-weight:				lighter;
+}
+
+strong {
+	color:						white;
+}
+
+nav {
+	clear:						both;
+}

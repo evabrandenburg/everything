@@ -1,0 +1,39 @@
+* Sync tool: http://www.taqquikarim.com/resync/
+* officehours: fewd.us/officehours
+
+* TONIGHT: office hours/hackathon
+
+* real quick, relative paths review
+** relative_paths_review
+
+* Wendy G. Bite, Box Model edition
+** reset.css
+** introduce the box model
+*** http://www.w3schools.com/css/css_boxmodel.asp
+** code with layouts in mind
+** css transitions?
+
+* Nested selectors exercise
+** find the item and change property
+** google is your friend
+
+* Fashion blog! Build it, yo
+** discuss the structure as a class
+** <SECTION>: http://html5doctor.com/the-section-element/
+** <ARTICLE>: http://html5doctor.com/the-article-element/
+** difference between section, article, div: http://boblet.tumblr.com/post/130610820/html5-structure1
+** new html elements: http://www.w3schools.com/html/html5_new_elements.asp
+
+* FLOATS: how do they work?
+** http://coding.smashingmagazine.com/2007/05/01/css-float-theory-things-you-should-know/
+* document flow removal
+** http://codepen.io/mottaquikarim/tag/floats
+
+* Fashion Blog 2
+** start off by identifying bits and pieces of it
+
+* LOL jk, we're goin rogue. 
+** let's build a home page for ourselves
+** I like this: http://themes.designova.net/?theme=dignity and this: http://designova.net/dignity/index03.html and this: https://dev.twitter.com/docs/cards/types/player-card
+
+* CSS icons library + github
