@@ -1,0 +1,37 @@
+Good Morning!  
+  
+REVIEW: 
+> arrays (10 mins, code along)
+=== 10_arrays/starter_code/arrays/js/exercise.js
+=== fyi: the forEach loop; http://jsperf.com/fast-array-foreach
+> functions (20 mins + optional pset)
+=== review of arguments + return
+=== patterns: function myFunction() {} vs. var myFunction = function() {}
+=== anonymous functions: in js functions do not need names to be created! useful after the beep...
+=== functions_review/js/script.js
+
+INTRO: (10 mins)
+> objects
+=== very basic definition
+=== object keys can be: Numbers, Strings, Booleans, functions, Array, or other Objects
+
+jQuery: ( 1 hr-ish )
+> wtheck is jquery, yo
+> selectors
+=== emphasize paradigm of CSS selectors -> jQuery objects
+=== jQuery objs are array-like; they are not strictly arrays
+=== jQuery_review/js/selectorsReview.js
+> basic functions
+=== show some examples; talk about events here
+=== jQuery_review/js/basicMethodsReview.js
+
+FUN STUFF!!!
+> the divided times
+=== you may use HTML and CSS, but NOT THE JS; don't even peek at it (pls)
+=== we will use functions to 'automate' a lot of the coding that we must do for it
+> image carousel
+=== 10_arrays/starter_code/carousel_obfuscated/
+=== we can just style this on our own together, keep it super simple
+> image carousel with 'cuteness'
+
+...plugins? maybe? maybe! 
