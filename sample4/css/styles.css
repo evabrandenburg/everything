@@ -19,43 +19,43 @@
 .flipped {
 	background-image: url( '../images/classic-playing-cards.png' );
 }
-.card.c-1 {
+.flipped.c-1 {
 	background-position: -1px -1px;
 }
-.card.c-2 {
+.flipped.c-2 {
 	background-position: -74px -1px;
 }
 .card.c-3 {
 	background-position: -147px -1px;
 }
-.card.c-4 {
+.flipped.c-4 {
 	background-position: -220px -1px;
 }
-.card.c-5 {
+.flipped.c-5 {
 	background-position: -289px -1px;
 }
-.card.c-6 {
+.flipped.c-6 {
 	background-position: -362px -1px;
 }
-.card.c-7 {
+.flipped.c-7 {
 	background-position: -431px -1px;
 }
 .flipped.c-8 {
 	background-position: -504px -1px;
 }
-.card.c-9 {
+.flipped.c-9 {
 	background-position: -577px -1px;
 }
-.card.c-10 {
+.flipped.c-10 {
 	background-position: -650px -1px;
 }
-.card.c-11 {
+.flipped.c-11 {
 	background-position: -723px -1px;
 }
-.card.c-12 {
+.flipp.c-12 {
 	background-position: -796px -1px;
 }
-.card.c-13 {
+.flipped.c-13 {
 	background-position: -889px -1px;
 }
 

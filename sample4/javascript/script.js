@@ -39,17 +39,31 @@
 
 	var cards = $( '.card' );
 
-	var what = function( e ){
-			//var cardClicked = $(e.currentTarget);
-			var cardClicked = $(this);
-			cardClicked.addClass( 'flipped' );
+	var what = function( e ){ //
+			var cardClicked = $(this); // store whatever happened in cardClicked
+				if ( cardClicked.hasClass( 'flipped' ) == false){ // next we check if clicked card has class.flipped 1st time is false 2nd time true
+					var item = arr.pop(); //store last rank in array in item
+					cardClicked.addClass( item ); // add rank to card that was clicked
+					}
+				cardClicked.addClass( 'flipped' );//add flipped to card that was clicked 2nd time = Idempotence same as if only done once
 		};
 
 	cards.click( what );
 
 
-	/*for ( var i = 0; i < cards.length; i = i + 1) {
-		$( cards[ i ] )
-			.addClass( arr[ i ]`)*/
+	//!$ also means not
+
+	//pick an item from array
+	//store item in var
+	//remove item that was picked
+	//add class to the card
+
+
+
+
+
+	//for ( var i = 0; i < cards.length; i = i + 1) {
+		//$( cards[ i ] )
+			//.addClass( arr[ i ])
 	
 })();
