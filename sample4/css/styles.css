@@ -1,0 +1,68 @@
+
+/* YOU ARE IN: sample_project_folder/css/styles.css */
+
+.card-wrapper {
+	width: 563px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.card {
+	height: 96px;
+	width: 71px;
+	margin: 10px;
+	float: left;
+	background-image: url('../images/back-of-card.png');
+	background-repeat: no-repeat;
+}
+
+.flipped {
+	background-image: url( '../images/classic-playing-cards.png' );
+}
+.card.c-1 {
+	background-position: -1px -1px;
+}
+.card.c-2 {
+	background-position: -74px -1px;
+}
+.card.c-3 {
+	background-position: -147px -1px;
+}
+.card.c-4 {
+	background-position: -220px -1px;
+}
+.card.c-5 {
+	background-position: -289px -1px;
+}
+.card.c-6 {
+	background-position: -362px -1px;
+}
+.card.c-7 {
+	background-position: -431px -1px;
+}
+.flipped.c-8 {
+	background-position: -504px -1px;
+}
+.card.c-9 {
+	background-position: -577px -1px;
+}
+.card.c-10 {
+	background-position: -650px -1px;
+}
+.card.c-11 {
+	background-position: -723px -1px;
+}
+.card.c-12 {
+	background-position: -796px -1px;
+}
+.card.c-13 {
+	background-position: -889px -1px;
+}
+
+
+
+
+
+/* ADD 74 to the previous, take away 1 (for x) */
+
+/* add 74 to previous take awaqy 1 for x */

@@ -1,0 +1,24 @@
+*** shout out to isit[something] HWs
+
+** review 'this'
+
+* Refactoring: change code to make it faster/easier to maintain
+== CSS: OOCSS, BEM
+=== multiple selectors for similar rules
+=== avoid repeating rules
+=== css class names for readability
+== JS
+=== avoid spaghetti code by creating functions
+=== large sets of data should be encapsulated into arrays
+=== protect the lemmings!
+=== use console.log and the js debugger
+
+* DO REFACTOR pset
+* DEMO debug pset
+* WORK ON color_scheme into something with one function
+
+** review AJAX
+** introduce how to use plugins
+** BOOTSTRAP, yo!
+
+* make card game!!
