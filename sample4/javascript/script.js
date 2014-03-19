@@ -4,7 +4,7 @@
 
 	var arr = [ 
 		'c-1'
-		, 'c-'
+		, 'c-2'
 		, 'c-3'
 		, 'c-4'
 		, 'c-5'
@@ -39,16 +39,43 @@
 
 	var cards = $( '.card' );
 
-	var what = function( e ){ //
+	//var previous = null;
+
+	//var compare = function(){
+	//	if ( current == previous ) // save previous = current
+	//};
+
+	//null = var = to nothing
+
+
+	var what = function( e ){ 
 			var cardClicked = $(this); // store whatever happened in cardClicked
 				if ( cardClicked.hasClass( 'flipped' ) == false){ // next we check if clicked card has class.flipped 1st time is false 2nd time true
-					var item = arr.pop(); //store last rank in array in item
-					cardClicked.addClass( item ); // add rank to card that was clicked
+					var current = arr.pop(); //store last rank in array in item
+					cardClicked.addClass( current ); // add rank to card that was clicked
 					}
 				cardClicked.addClass( 'flipped' );//add flipped to card that was clicked 2nd time = Idempotence same as if only done once
 		};
 
+
+
+	
+					//var last = arr.pop(); //store last rank in array in item
+					
+
+
+		//if CardClicked.hasClass = 
+
+		//idea put arr that was popped out in new array
+		//if item = what was in 2nd item in new array keepy cards face up
+
 	cards.click( what );
+
+	//only keep card flipped if class = class
+	// of previous card flipped
+	// if not change class back to .card
+
+
 
 
 	//!$ also means not

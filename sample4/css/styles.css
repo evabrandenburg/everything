@@ -9,23 +9,25 @@
 
 .card {
 	height: 96px;
-	width: 71px;
+	width: 72px;
 	margin: 10px;
 	float: left;
 	background-image: url('../images/back-of-card.png');
 	background-repeat: no-repeat;
 }
 
+
 .flipped {
 	background-image: url( '../images/classic-playing-cards.png' );
 }
+
 .flipped.c-1 {
 	background-position: -1px -1px;
 }
 .flipped.c-2 {
 	background-position: -74px -1px;
 }
-.card.c-3 {
+.flipped.c-3 {
 	background-position: -147px -1px;
 }
 .flipped.c-4 {
@@ -52,7 +54,7 @@
 .flipped.c-11 {
 	background-position: -723px -1px;
 }
-.flipp.c-12 {
+.flipped.c-12 {
 	background-position: -796px -1px;
 }
 .flipped.c-13 {
