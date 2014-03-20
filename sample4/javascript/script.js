@@ -62,9 +62,9 @@
 
 			else if (card_set.find( '.card' ).hasClass( 'first' ) == true){
 				cardClicked.addClass( 'second' );
-				console.log(card_set.find('.card').hasClass('first'))
-				if (cardClicked.attr( 'data' ) == $( '.first' ).attr( 'data' )){
-					alert( 'works!' );
+				if (cardClicked.attr( 'data' ) != $( '.first' ).attr( 'data' )){
+					card_set.find( '.card' ).removeClass( 'flipped' );
+				
 			}
 
 			}
