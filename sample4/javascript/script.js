@@ -48,33 +48,33 @@
 	//null = var = to nothing
 
 
-	var card_set = $('.card-wrapper');
+	var card_set = $( '.card-wrapper' );
 	var what = function( e ){ 
 			var cardClicked = $(this); // store whatever happened in cardClicked
-			var index = $(".card").index(this);
+			var index = $( ".card" ).index(this);
 			cardClicked.addClass( arr[index] ); // add rank to card that was clicked
-			cardClicked.attr('data', arr[index]);
-			if (card_set.find('.card').hasClass('second') == true){
-				card_set.find('.card').removeClass('first second');
+			cardClicked.attr( 'data' , arr[index]);
+			if (card_set.find( '.card' ).hasClass( 'second' ) == true){
+				card_set.find( '.card' ).removeClass( 'first second' );
 				cardClicked.addClass( 'first' );
 
 			}
 
-			else if (card_set.find('.card').hasClass('first') == true){
+			else if (card_set.find( '.card' ).hasClass( 'first' ) == true){
 				cardClicked.addClass( 'second' );
 				console.log(card_set.find('.card').hasClass('first'))
 				if (cardClicked.attr( 'data' ) == $( '.first' ).attr( 'data' )){
-					alert( "works!!");	
-				}
+					alert( 'works!' );
+			}
 
 			}
-			else if (card_set.find('.card').hasClass('first') == false){
+			else if (card_set.find( '.card' ).hasClass('first') == false){
 				cardClicked.addClass( 'first' );
 			}			
 				if ( cardClicked.hasClass( 'flipped' ) == false){ // next we check if clicked card has class.flipped 1st time is false 2nd time true
 					//var current = arr.pop(); //store last rank in array in item
 					cardClicked.addClass( arr[index] ); // add rank to card that was clicked
-					cardClicked.attr('data', arr[index]);
+					cardClicked.attr( 'data' , arr[index]);
 					}
 				cardClicked.addClass( 'flipped' );//add flipped to card that was clicked 2nd time = Idempotence same as if only done once
 				
@@ -83,6 +83,7 @@
 		//if card.class first = card.class = second 
 
 		
+		// add matched class and don't flip over those that have it
 
 		//data attributes
 
