@@ -50,28 +50,20 @@
 
 	var what = function( e ){ 
 			var cardClicked = $(this); // store whatever happened in cardClicked
+			var index = $(".card").index(this);
+
 				if ( cardClicked.hasClass( 'flipped' ) == false){ // next we check if clicked card has class.flipped 1st time is false 2nd time true
-					var current = arr.pop(); //store last rank in array in item
-					cardClicked.addClass( current ); // add rank to card that was clicked
+					//var current = arr.pop(); //store last rank in array in item
+					cardClicked.addClass( arr[index] ); // add rank to card that was clicked
 					}
 				cardClicked.addClass( 'flipped' );//add flipped to card that was clicked 2nd time = Idempotence same as if only done once
-		};
+				//cardClicked.addClass( 'current' );
+		};	
 
+		cards.click( what );
 
-
-	
-					//var last = arr.pop(); //store last rank in array in item
-					
-
-
-		//if CardClicked.hasClass = 
-
-		//idea put arr that was popped out in new array
-		//if item = what was in 2nd item in new array keepy cards face up
-
-	cards.click( what );
-
-	//only keep card flipped if class = class
+	//add class 1st to 1st version of card clicked, class 2nd to 2nd version of card clicked
+	//only keep card flipped if class = 
 	// of previous card flipped
 	// if not change class back to .card
 
