@@ -1,10 +1,21 @@
 
 /* YOU ARE IN: sample_project_folder/css/styles.css */
 
+body { 
+	background-color: black;}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color:	white;
+}
+
 .card-wrapper {
-	width: 563px;
+	width: 570px;
 	margin: 0 auto;
 	overflow: hidden;
+	border-width: 2px;
+	border-color: white;
 }
 
 .card {
@@ -34,31 +45,31 @@
 	background-position: -220px -1px;
 }
 .flipped.c-5 {
-	background-position: -289px -1px;
+	background-position: -293px -1px;
 }
 .flipped.c-6 {
-	background-position: -362px -1px;
+	background-position: -366px -1px;
 }
 .flipped.c-7 {
-	background-position: -431px -1px;
+	background-position: -439px -1px;
 }
 .flipped.c-8 {
-	background-position: -504px -1px;
+	background-position: -512px -1px;
 }
 .flipped.c-9 {
-	background-position: -577px -1px;
+	background-position: -585px -1px;
 }
 .flipped.c-10 {
-	background-position: -650px -1px;
+	background-position: -658px -1px;
 }
 .flipped.c-11 {
-	background-position: -723px -1px;
+	background-position: -731px -1px;
 }
 .flipped.c-12 {
-	background-position: -796px -1px;
+	background-position: -804px -1px;
 }
 .flipped.c-13 {
-	background-position: -889px -1px;
+	background-position: -877px -1px;
 }
 
 
