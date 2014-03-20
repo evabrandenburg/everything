@@ -52,14 +52,21 @@
 	var what = function( e ){ 
 			var cardClicked = $(this); // store whatever happened in cardClicked
 			var index = $(".card").index(this);
+			cardClicked.addClass( arr[index] ); // add rank to card that was clicked
+			cardClicked.attr('data', arr[index]);
 			if (card_set.find('.card').hasClass('second') == true){
 				card_set.find('.card').removeClass('first second');
+				cardClicked.addClass( 'first' );
+
 			}
 
 			else if (card_set.find('.card').hasClass('first') == true){
 				cardClicked.addClass( 'second' );
 				console.log(card_set.find('.card').hasClass('first'))
-			//else cardClicked.addClass( 'first');
+				if (cardClicked.attr( 'data' ) == $( '.first' ).attr( 'data' )){
+					alert( "works!!");	
+				}
+
 			}
 			else if (card_set.find('.card').hasClass('first') == false){
 				cardClicked.addClass( 'first' );
@@ -67,10 +74,17 @@
 				if ( cardClicked.hasClass( 'flipped' ) == false){ // next we check if clicked card has class.flipped 1st time is false 2nd time true
 					//var current = arr.pop(); //store last rank in array in item
 					cardClicked.addClass( arr[index] ); // add rank to card that was clicked
+					cardClicked.attr('data', arr[index]);
 					}
 				cardClicked.addClass( 'flipped' );//add flipped to card that was clicked 2nd time = Idempotence same as if only done once
 				
 		};	
+
+		//if card.class first = card.class = second 
+
+		
+
+		//data attributes
 
 
 
