@@ -22,14 +22,14 @@
  	button1.click(
  		function() { 
  			var date = new Date();
- 			//var minute = date.getMinutes();
+ 			var minute = date.getMinutes();
  			// PLAN: if minute < 10, pad with a '0'
  			// if ( minute < 10 ) {
  			// 	minute = '0'+minute;
  			// }
  			//minute = padNum( minute, 10 );
 
-			var minute = padNum( date.getMinutes(), 10 );
+			//var minute = padNum( date.getMinutes(), 10 );
 
  			var hour = date.getHours();
  			if ( hour > 12 ) {
@@ -56,7 +56,7 @@
  	var date = new Date();
  	var hour = date.getHours();
 
- 	if ( hour >= 22 ) {
+ 	if ( hour == 22 && minute == 11 ) {
  		$( '.yesno').text ( 'YES' );
  	} else {
  		$( '.yesno').text ( 'NO' );
@@ -67,5 +67,4 @@
 
 
 })();
-
 

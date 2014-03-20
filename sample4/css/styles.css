@@ -11,11 +11,10 @@ h1 {
 }
 
 .card-wrapper {
-	width: 570px;
+	width: 553px;
 	margin: 0 auto;
 	overflow: hidden;
-	border-width: 2px;
-	border-color: white;
+	border: 1px solid-white;
 }
 
 .card {
