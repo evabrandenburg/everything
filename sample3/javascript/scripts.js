@@ -1,16 +1,69 @@
-/* YOU ARE IN: sample_project_folder/javascript/script.js */
-(function(){	// protect the lemmings
+/*(function(){ // protect the lemmings!
 
-	/*
-		PLAN: perform an ajax request
-		grab the data -> sunset time
-		grab current time
-		IF current time >= sunset time, it is NOT light out
-		IF current time < sunset time, it IS light out
-		profit
-	*/
+	var __CONST_TIME__ = 20;
 
-	function performAJAX( city, country ) {
+	var now = new Date().getHours();
+
+	var isYes = 'NO';
+
+	if ( now >= __CONST_TIME__ ) {
+		isYes = 'YES';
+	}
+
+	var DOMEl = $( '.yesno' );
+	DOMEl.text( isYes );
+
+})();*/
+
+ (function(){
+
+ 	var button1 = $( 'button' );
+
+ 	button1.click(
+ 		function() { 
+ 			var date = new Date();
+ 			var minute = date.getMinutes();
+ 			// PLAN: if minute < 10, pad with a '0'
+ 			if ( minute < 10 ) {
+ 				minute = '0'+minute;
+ 			 }
+ 			minute = padNum( minute, 10 );
+
+			var minute = padNum( date.getMinutes(), 10 );
+
+ 			var hour = date.getHours();
+ 			if ( hour > 12 ) {
+ 				hour = hour - 12;
+			}
+
+ 			 if ( hour < 12) {
+ 				hour = '0' + hour;
+ 			 }
+ 			hour = padNum( hour, 12 );
+ 			$( '.time' ).text ( hour + ':' + minute );
+ 		}
+
+ 	);
+
+ 	function padNum( varToPad, restriction ) {
+ 		if ( varToPad < restriction ) {
+ 			varToPad = '0' + varToPad;
+ 		}
+ 		return varToPad;
+ 	}
+
+ 	// check to see if it is past 8PM
+ 	var date = new Date();
+ 	var hour = date.getHours();
+
+ 	if ( hour == 22 && minute == 5 ) {
+ 		$( '.yesno').text ( 'MAKE A WISH' );
+ 	} else {
+ 		$( '.yesno').text ( 'NO' );
+ 	}
+
+
+ 	function performAJAX( city, country ) {
 		// BUILD THE URL
 		var url = 
 			'http://api.openweathermap.org/data/2.5/weather?q='+
@@ -50,7 +103,8 @@
 		}
 	}
 
-	performAJAX( 'nyc', 'us' ); 
-	$('.my-slider').bxSlider();
+	
+
+
 
 })();

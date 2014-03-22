@@ -64,6 +64,7 @@
 				cardClicked.addClass( 'second' );
 				if (cardClicked.attr( 'data' ) != $( '.first' ).attr( 'data' )){
 					card_set.find( '.card' ).removeClass( 'flipped' );
+					card_set.find( '.card' ).addClass( 'done' );
 				//else(cardClicked.attr( 'data' ) == $( '.first' ).attr( 'data' )){
 					//card_set.find( ',card' ).addClass( 'flipped' );
 			}

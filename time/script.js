@@ -24,21 +24,21 @@
  			var date = new Date();
  			var minute = date.getMinutes();
  			// PLAN: if minute < 10, pad with a '0'
- 			// if ( minute < 10 ) {
- 			// 	minute = '0'+minute;
- 			// }
- 			//minute = padNum( minute, 10 );
+ 			if ( minute < 10 ) {
+ 				minute = '0'+minute;
+ 			 }
+ 			minute = padNum( minute, 10 );
 
-			//var minute = padNum( date.getMinutes(), 10 );
+			var minute = padNum( date.getMinutes(), 10 );
 
  			var hour = date.getHours();
  			if ( hour > 12 ) {
  				hour = hour - 12;
 			}
 
- 			// if ( hour < 12) {
- 			// 	hour = '0' + hour;
- 			// }
+ 			 if ( hour < 12) {
+ 				hour = '0' + hour;
+ 			 }
  			hour = padNum( hour, 12 );
  			$( '.time' ).text ( hour + ':' + minute );
  		}
@@ -56,8 +56,8 @@
  	var date = new Date();
  	var hour = date.getHours();
 
- 	if ( hour == 22 && minute == 11 ) {
- 		$( '.yesno').text ( 'YES' );
+ 	if ( hour == 22 && minute == 5 ) {
+ 		$( '.yesno').text ( 'MAKE A WISH' );
  	} else {
  		$( '.yesno').text ( 'NO' );
  	}
