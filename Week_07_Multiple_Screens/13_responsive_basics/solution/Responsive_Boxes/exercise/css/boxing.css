@@ -1,4 +1,4 @@
-/*nav { width: 		99%;
+nav { width: 		99%;
 	border:		3px solid black;
 	margin:		auto;
 	background-color:	blue;
@@ -122,6 +122,8 @@ footer {
 
 /************mobile overrides*********/
 
+@media (max-width: 768px) {
+
 nav { 
 	width: 		99%;
 	border:		3px solid black;
@@ -242,6 +244,13 @@ footer {
 	border:		3px solid black;
 	margin:		10px;
 }
+
+}
+/**
+
+if statement {
+	alot of rules
+} 
 
 
 
