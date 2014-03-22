@@ -1,0 +1,62 @@
+@media (max-width: 480px) {
+	
+	h1 {
+	font-size: 80%;
+	line-height: 1;
+	}
+
+	nav {
+		display: none;
+	}
+
+
+	.blurb {
+	background: rgba(255,255,255,.8);
+	width: 60%;
+	margin: 0 auto;
+	padding: 4%;
+	float: right;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+	font-size: 80%;
+	
+	}
+
+	span {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+		height: 75px;
+		width:  50px;
+		background-color: yellow;
+
+	}
+
+	.tout {
+	float: none;
+	width: 95%;
+	padding: 3%;
+	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+	font-size: 80%;
+	}
+
+	.tagline {
+	font-family: 'Merriweather', serif;
+	margin: 0;
+	padding: 1em 3%;
+	font-size: 1.25em;
+	line-height: 1em;
+	font-style: italic;
+	background: #C6C6C6;
+	border-top: 1px solid #AAA;
+	display: none;
+}
+
+	.touts {
+	padding:	0;
+	}
+
+
+
+} /*end of query*/
