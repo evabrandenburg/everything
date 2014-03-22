@@ -1,5 +1,4 @@
-/*nav { 
-	width: 		99%;
+/*nav { width: 		99%;
 	border:		3px solid black;
 	margin:		auto;
 	background-color:	blue;
@@ -132,19 +131,23 @@ nav {
 
 ul {
 	overflow:	hidden;
+	height:		100px;
 }
 
 li {
-	width:		10%;
+	width:		20px;
 	height:		100px;
 	border:		2px solid black;
 	margin:		5px;
 	background-color:  red;
+	display:	none;
 }
 
 .not-showing {
 	float:		right;
-	display:	none;
+	width:		25%;
+	height:		100%;
+	background-color:	red;
 }
 
 .middle {
@@ -215,7 +218,7 @@ li {
 }
 
 .next {
-	width:		23%;
+	width:		100%;
 	height:		180px;
 	border:		3px solid black;
 	margin:	 	10px;
@@ -223,13 +226,13 @@ li {
 
 footer {
 	width:		100%;
-	height:		200px;
+	height:		auto;
 	border:		3px solid black;
 }
 
 .last {
-	width:		29%;
-	height:		80%;
+	width:		100%;
+	height:		100px;
 	border:		3px solid black;
 	margin:		25px;
 }
@@ -237,6 +240,7 @@ footer {
 .box {
 	height:		100px;
 	border:		3px solid black;
+	margin:		10px;
 }
 
 
