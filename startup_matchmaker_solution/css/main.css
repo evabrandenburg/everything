@@ -123,8 +123,8 @@ p {
 	padding: 4%;
 	float: right;
 	box-shadow: 0 0 5px rgba(0,0,0,.75);
-	webkit-transition: width 0.5s;
-			transition: width 0.5s;
+	-webkit-transition: width 0.5s;
+			-transition: width 0.5s;
 }
 
 
