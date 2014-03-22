@@ -1,0 +1,21 @@
+body {
+	text-align:		center;
+	padding:		10%;
+	font-family: 	sans-serif;
+}
+
+.yesno {
+	font-size: 		700%;
+}
+
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.daytime {
+	background-image: url( 'daytime.jpg');
+}
+
+.nighttime {
+	background-image: url( 'nighttime.jpg');
+}

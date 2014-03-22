@@ -1,0 +1,25 @@
+**** MEDIA Queries
+
+* boxes exercise
+* then, RESPONSIVE exercise
+== on the same CSS, but with overwrites 
+* add MEDIA queries 
+** dynamically add extra css rules based on screen size
+** kind of like inserting an extra CSS file 
+** mobile first vs desktop first
+== exhaustive list of media queries for *most* devices 
+==== http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+==== http://nmsdvid.com/snippets/
+== media types
+==== http://www.w3schools.com/css/css_mediatypes.asp
+== the META viewport tag
+==== <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, maximum-scale=1.0">
+==== started by Apple, now everyone more or less has adopted it
+
+* LAB TIME!!!
+
+* now the fun stuff...
+** 960 grid
+** bootstrap
+==== we will build an entire site from bootstrap, super easily and simply to demonstrate usecase
+** go over the cards matching game
