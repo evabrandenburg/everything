@@ -1,1 +1,68 @@
 /* CURRENTLY IN: styles/main.css */
+h1 {
+	width:			620px;
+	float:			left;
+	height:			100px;
+	border:			2px solid black;
+}
+
+.slant {
+
+}
+
+.motto { 
+	width:			300px;
+	height:			80px;
+	background-color:	blue;
+	float:			right;
+}
+
+h2 {
+	width:			700px;
+	margin:			25px auto;
+	border:			2px solid black;
+	display:		block;
+	text-align:		inline;
+}
+
+
+.decider {
+	width:			960px;
+	overflow:		hidden;
+	margin:			auto;
+	background-color: red;
+}
+
+.tool {
+	width:			960px;
+	overflow:		hidden;
+	margin:			auto;
+	background-color: blue;
+}
+
+.question {
+	float:			left;
+	width:			280px;
+	height:			250px;
+	margin:			18px;
+	border:			2px solid black;
+	margin
+}
+
+.event {
+	float:			left;
+	width:			280px;
+	height:			250px;
+	margin:			18px;
+	border:			2px solid black;
+}
+
+.result {
+	float:			left;
+	width:			280px;
+	height:			250px;
+	margin:			18px;
+	border:			2px solid black;
+}
+
+
