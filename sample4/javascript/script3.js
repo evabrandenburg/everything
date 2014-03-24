@@ -11,8 +11,7 @@
 		, 'c-9'
 		, 'c-10'
 		, 'c-11'
-		, 'c-12'
-		, 'c-13' 
+		, 'c-12' 
 		, 'c-1'
 		, 'c-2'
 		, 'c-3'
@@ -25,7 +24,6 @@
 		, 'c-10'
 		, 'c-11'
 		, 'c-12'
-		, 'c-13'
 		//randomize array
 	].sort(function() {
   return .5 - Math.random();
@@ -79,8 +77,12 @@
 			numTimesFlipped = 0; //change the counter of flips back to zero
 		}
 
+
 	}
-	//alert('you win!' );
+	
+	if($( ".matched" ).length==$( ".card-wrapper" ).length){
+			alert( 'you win' );
+		}
 
 
 

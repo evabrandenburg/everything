@@ -58,7 +58,6 @@
 			var motherfucker = card_set.find( '.card' ).hasClass( 'second' ) == true;
 			cardClicked.addClass( arr[index] ); // add rank to card that was clicked
 			cardClicked.attr( 'data' , arr[index]);// get data attribute and index
-		
 			cardClicked.addClass( 'flipped' );//add flipped to card that was clicked 2nd time = Idempotence same as if only done once
 			if (motherfucker){//executed if on previous click use clicked on second card of pair
 				oldFirst.removeClass( 'first' );

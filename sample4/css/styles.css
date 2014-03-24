@@ -14,7 +14,6 @@ h1 {
 	width: 553px;
 	margin: 0 auto;
 	overflow: hidden;
-	border: 1px solid-white;
 }
 
 .card {
@@ -80,8 +79,5 @@ h1 {
 .matched.c-12 {
 	background-position: -804px -1px;
 }
-.flipped.c-13,
-.matched.c-13 {
-	background-position: -877px -1px;
-}
+
 
