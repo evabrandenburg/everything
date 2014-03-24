@@ -1,0 +1,34 @@
+/* CURRENTLY IN: styles/main.css */
+
+.card {
+	height: 100px;
+	width: 50px;
+	border: 1px solid black;
+	margin: 5px;
+	float: left;
+	background-color: transparent;
+}
+
+.flipped {
+	background-color: pink;
+}
+
+.c1.flipped,
+.c1.matched {
+	background-color: rgba( 0,0,0,0.10 );
+}
+.c2.flipped,
+.c2.matched {
+	background-color: rgba( 0,0,0,0.20 );
+}
+.c3.flipped,
+.c3.matched {
+	background-color: rgba( 0,0,0,0.30 );
+}
+.c4.flipped,
+.c4.matched {
+	background-color: rgba( 0,0,0,0.40 );
+}
+
+
+
