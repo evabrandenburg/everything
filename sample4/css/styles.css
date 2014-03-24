@@ -27,54 +27,61 @@ h1 {
 }
 
 
-.flipped {
+.flipped,
+.matched {
 	background-image: url( '../images/classic-playing-cards.png' );
 }
 
-.flipped.c-1 {
+.flipped.c-1,
+.matched.c-1 {
 	background-position: -1px -1px;
 }
-.flipped.c-2 {
+.flipped.c-2,
+.matched.c-2 {
 	background-position: -74px -1px;
 }
-.flipped.c-3 {
+.flipped.c-3, 
+.matched.c-3 {
 	background-position: -147px -1px;
 }
-.flipped.c-4 {
+.flipped.c-4,
+.matched.c-4 {
 	background-position: -220px -1px;
 }
-.flipped.c-5 {
+.flipped.c-5,
+.matched.c-5 {
 	background-position: -293px -1px;
 }
-.flipped.c-6 {
+.flipped.c-6,
+.matched.c-6 {
 	background-position: -366px -1px;
 }
-.flipped.c-7 {
+.flipped.c-7,
+.matched.c-7 {
 	background-position: -439px -1px;
 }
-.flipped.c-8 {
+.flipped.c-8,
+.matched.c-8 {
 	background-position: -512px -1px;
 }
-.flipped.c-9 {
+.flipped.c-9,
+.matched.c-9 {
 	background-position: -585px -1px;
 }
-.flipped.c-10 {
+.flipped.c-10,
+.matched.c-10 {
 	background-position: -658px -1px;
 }
-.flipped.c-11 {
+.flipped.c-11, 
+.matched.c-11{
 	background-position: -731px -1px;
 }
-.flipped.c-12 {
+.flipped.c-12,
+.matched.c-12 {
 	background-position: -804px -1px;
 }
-.flipped.c-13 {
+.flipped.c-13,
+.matched.c-13 {
 	background-position: -877px -1px;
 }
 
-
-
-
-
-/* ADD 74 to the previous, take away 1 (for x) */
-
-/* add 74 to previous take awaqy 1 for x */
