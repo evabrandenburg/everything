@@ -4,6 +4,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
     <title >Decider</title>
     <link rel='stylesheet' href='styles/reset.css'>
+    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
     <link rel='stylesheet' href='styles/main.css'>
 </head>
 <body>
@@ -18,13 +19,19 @@
 
 		<div class="tool">
 			<div class="question">
-				Who's Right?
+				<div class="questionText">
+					Who's Right?
+				</div>
 			</div>
 			<div class="question">
-				Yes or No?
+				<div class="questionText">
+					Yes or No?
+				</div>
 			</div>
 			<div class="question">
-				Which to choose?
+				<div class="questionText">
+					Which to choose?
+				</div>
 			</div>
 <!--zoom in on question with hovered over... try zoom.js found under hakim.. look in bookmarks-->
 			<div class="event">
@@ -47,6 +54,13 @@
 				<button>Decide It!</button>
 			</div>
 
+			<form class="form-inline" role="form">
+  				<div class="form-group">
+    				<label class="sr-only" for="exampleInputEmail2">Email address</label>
+    			<input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+  				</div>
+  			</form>
+
 			<div class="event">
 				<div class="curly">Choose one.</div>
 				<textarea class="textAreaSmaller">
@@ -65,9 +79,39 @@
 				<button>Decide it!</button>
 			</div>
 
-			<div class="result"></div>
-			<div class="result"></div>
-			<div class="result"></div>
+			<div class="result">
+
+				<div class="answer">
+					TEXT
+				</div>
+
+				<div class="share">
+				</div>
+
+			</div>
+
+			<div class="result">
+
+				<div class="answer">
+					TEXT
+				</div>
+
+				<div class="share">
+				</div>
+
+			</div>
+
+			<div class="result">
+
+				<div class="answer">
+					TEXT
+				</div>
+
+				<div class="share">
+				</div>
+
+			</div>
+
 		</div><!--class="tool"-->
 	</div><!--class="decider"-->
 

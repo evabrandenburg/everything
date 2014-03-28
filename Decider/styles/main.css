@@ -65,8 +65,16 @@ h1 {
 	margin
 }
 
+.questionText {
+	text-align:		center;
+	font-size: 		200%;
+	margin-top:		40px;
+	margin:			20px;
+}
+
 .event {
 	float:			left;
+	text-align:		center;
 	width:			200px;
 	height:			170px;
 	margin:			57px;
@@ -101,6 +109,15 @@ h1 {
 
 .input {
 	margin-bottom:		20px;
+}
+
+.answer {
+	text-align: 		center;
+}
+
+.share {
+	height:				40px;
+	width:				180px;
 }
 
 
