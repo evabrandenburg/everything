@@ -81,6 +81,11 @@ h1 {
 	border:			2px solid black;
 }
 
+.eventQuestion {
+	margin-top:		20px;
+	font-size:		150%;
+}
+
 .result {
 	float:			left;
 	width:			200px;
@@ -89,23 +94,6 @@ h1 {
 	border:			2px solid black;
 }
 
-.textArea {
-	height:			50px;
-	overflow:		hidden;
-}
-
-.textAreaSmall {
-	height:			25px;
-	width:			80px;
-	overflow:		hidden;
-	}
-}
-
-.textAreaSmaller {
-	height:			25px;
-	width:			40px;
-	overflow:		hidden;
-}
 
 .input {
 	margin-bottom:		20px;
@@ -119,5 +107,33 @@ h1 {
 	height:				40px;
 	width:				180px;
 }
+
+.form-inline {
+	margin-top:			15px;
+}
+
+.one {
+	width:				80px;
+	height:				15px;
+	border-style:		none;
+	font-size:			80%;
+
+}
+
+.two {
+	width:				150px;
+	border-style:		none;
+}
+
+.three {
+	width:				50px;
+	border-style:		none;
+}
+
+.btn {
+	margin-top:			15px;
+}
+
+
 
 
