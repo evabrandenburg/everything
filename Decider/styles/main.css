@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 .name {
-	width:			620px;
+	width:			550px;
 	float:			left;
 	height:			100px;
 	background-color: #BCCF19;
@@ -28,11 +28,13 @@ h1 {
 }
 
 .motto { 
-	width:			300px;
+	width:			350px;
 	height:			100px;
 	background-color:	blue;
 	float:			right;
-	margin:			30px auto;
+	margin-top:		20px;
+	margin-left:	20px;
+	border-radius:	20px;
 	font-size:		28px;
 }
 
@@ -115,13 +117,14 @@ body {
 
 .form-inline {
 	margin-top:			15px;
+	border:		solid gray 1px;
 }
 
 .one {
 	width:				80px;
 	height:				10px;
 	font-size:			50%;
-	border-color:		black .5px;
+	border-style:		solid black .5px;
 
 }
 
@@ -148,10 +151,26 @@ body {
 	width:				150px;
 	height:   			50px;
 	margin:				20px auto;
+	font-size: 			120%
 }
 
 .share {
 	margin:				20px auto;
+}
+
+.progress {
+	height:				50px;
+	width:				50px;
+	border-radius:		50%;
+	background-color:	white;
+	float:				left;
+	margin:				20px;
+}
+
+footer {
+	background-color:	blue;
+	width:	960px;
+	height:	90px;
 }
 
 
