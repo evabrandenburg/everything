@@ -70,7 +70,7 @@ body {
 }
 
 .box {
-	width:			200px;
+	width:			205px;
 	height:			170px;
 	margin:			57px;
 	background-color:	white;
@@ -138,13 +138,17 @@ body {
 }
 
 .three {
-	width:				40px;
+	width:				35px;
 	height:				10px;
 	font-size:			50%;
 }
 
 .btn {
 	margin-top:			15px;
+}
+
+.btn-xs {
+	margin-top:			-5px;
 }
 
 .answer {
