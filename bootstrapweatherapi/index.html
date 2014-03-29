@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title >WeatherAPI</title>
+    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body>
+<!--
+******* BEGIN FORM
+-->
+<div class="col-lg-6">
+            <div class="well bs-component">
+              <form class="form-horizontal weather-req" data-parsley-validate>
+                <fieldset>
+                  <legend>Choose a city...</legend>
+                  <div class="form-group">
+                  	<label for="my-name">Enter Name</label>
+                  	<input type="text" placeholder="eg: John Smith" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="select" class="col-lg-2 control-label">Selects</label>
+                    <div class="col-lg-10">
+                      <select name="q" class="form-control" id="select">
+                        <option value="chicago, us">Chicago</option>
+                        <option value="nyc, us" selected>New York</option>
+                        <option value="las vegas, us">Las Vegas</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+<!--
+******* END FORM
+-->
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+    <script src="javascript/parsley.min.js"></script>
+    <script src='javascript/main.js'></script>
+</body>
+</html>

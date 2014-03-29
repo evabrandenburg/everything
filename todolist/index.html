@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title >ToDoList</title>
+    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body>
+    <div class="container">
+    	<div class="col-lg-6">
+            <div class="well bs-component">
+              <form class="form-horizontal todo-list">
+                <fieldset>
+                  <legend>Simple ToDo List</legend>
+                  <div class="form-group">
+                  	<label for="my-task" class="col-lg-2 control-label">Enter Task</label>
+                  	<div class="col-lg-10">
+                  		<input class="form-control" id="my-task" type="text" placeholder="eg: Take out the trash">
+                  	</div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+          	  <h2>Things ToDo: </h2>
+	          <div class="tasks list-group">
+	                <div class="list-group-item">
+		                Hello, Wrold
+		                <button type="button" class="close">x</button>
+	                </div>
+	           </div>
+          </div>
+    </div>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+    <script src='javascript/main2.js'></script>
+</body>
+</html>

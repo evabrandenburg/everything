@@ -5,14 +5,23 @@
     <title >Decider</title>
     <link rel='stylesheet' href='styles/reset.css'>
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='style/bootstrap.css'>
     <link rel='stylesheet' href='styles/main.css'>
 </head>
 
 <body>
 	<div class="decider">
+
+		<!--<div class="links">
+		<ul class="nav nav-pills">
+  			<li class="active"><a href="#">Home</a></li>
+  			<li><a href="#">Profile</a></li>
+  			<li><a href="#">Messages</a></li>
+		</ul>
+	</div>-->
+
 		<div class="top">
 			<div class="name">
-				<div class="curly slant">the</div>
 				<h1>DECIDER</h1>
 			</div><!--divclass name-->
 			<div class="motto curly">hate making decisions?<br>never make one again.</div>
@@ -40,25 +49,29 @@
 			<div class="event box">
 				<div class="eventQuestion">Who's right?</div>
 
+				<form>
 					<input type="text" class="form-inline one" placeholder=" Beatles">
 				vs
 					<input type="text" class="form-inline one" placeholder=" Rolling Stones">
 
 				<button type="button" class="btn btn-primary">DECIDE IT</button>
+				</form>
 			</div><!--event-->
 
 			<div class="event box">
 				<div class="eventQuestion">Yes or No?</div>
 					
+				<form>
 					<input type="text" class="form-inline two" placeholder=" Should I stay or should I go (now)"> ?
 				
 				<button type="button" class="btn btn-primary">DECIDE IT</button>
-
+				</form>
 			</div>
 
 			<div class="event box">
 				<div class="eventQuestion">Choose one.</div>
 
+				<form>
 					<input type="text" class="form-inline three" placeholder=" homework">
 					or
 					<input type="text" class="form-inline three" placeholder=" laundry">
@@ -66,8 +79,8 @@
 					<input type="text" class="form-inline three" placeholder=" sleep">
 					or
 				<button type="button" class="btn btn-primary btn-xs">+</button>
-
-				<button type="button" class="btn btn-primary">DECIDE IT</button>
+					<button type="button" class="btn btn-primary">DECIDE IT</button>
+				</form>
 
 			</div>
 
