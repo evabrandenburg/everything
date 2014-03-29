@@ -6,6 +6,7 @@
 	background-color: #BCCF19;
 	margin:			20px auto;
 	border-radius:	20px;
+	border:			solid gray 1px;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h1 {
 	margin-left:	20px;
 	border-radius:	20px;
 	font-size:		28px;
+	border:			solid gray 1px;
 }
 
 .initial {
@@ -63,7 +65,7 @@ body {
 	width:			960px;
 	overflow:		hidden;
 	margin:			auto;
-	padding-top:		100px;
+	padding-top:	100px;
 	background-color: #BCCF19;
 }
 
@@ -72,8 +74,9 @@ body {
 	height:			170px;
 	margin:			57px;
 	background-color:	white;
-	color:		black;
+	color:			black;
 	border-radius:  20px;
+	border:			1px solid gray;
 }
 
 .question {
@@ -117,14 +120,14 @@ body {
 
 .form-inline {
 	margin-top:			15px;
-	border:		solid gray 1px;
+	border:				solid gray 1px;
+	border-radius: 		15px;
 }
 
 .one {
 	width:				80px;
 	height:				10px;
 	font-size:			50%;
-	border-style:		solid black .5px;
 
 }
 
@@ -132,14 +135,12 @@ body {
 	width:				150px;
 	height:				10px;
 	font-size:			50%;
-	border-color:		black .5px;
 }
 
 .three {
 	width:				40px;
 	height:				10px;
 	font-size:			50%;
-	border-color:		black .5px;
 }
 
 .btn {
@@ -165,6 +166,7 @@ body {
 	background-color:	white;
 	float:				left;
 	margin:				20px;
+	border:				1px solid gray;
 }
 
 footer {
