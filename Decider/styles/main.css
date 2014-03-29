@@ -6,6 +6,7 @@
 	background-color: #BCCF19;
 	margin:			20px auto;
 	border-radius:	20px;
+	margin-left:	19px;
 	border:			solid gray 1px;
 }
 
@@ -34,7 +35,7 @@ h1 {
 	background-color:	blue;
 	float:			right;
 	margin-top:		20px;
-	margin-left:	20px;
+	margin-right:	19px;
 	border-radius:	20px;
 	font-size:		28px;
 	border:			solid gray 1px;
@@ -54,7 +55,7 @@ h1 {
 }
 
 body {
-	background-color: #F6FFA3;
+	background-color: #E0E0E0;
 }
 
 
@@ -63,6 +64,7 @@ body {
 	overflow:		hidden;
 	margin:			auto;
 	background-color: white;
+	border:			solid gray 1px;
 }
 
 .tool {
@@ -81,6 +83,7 @@ body {
 	color:			black;
 	border-radius:  20px;
 	border:			1px solid gray;
+	overflow:		none;
 }
 
 .question {
@@ -90,7 +93,7 @@ body {
 .questionText {
 	text-align:		center;
 	font-size: 		200%;
-	margin-top:		40px;
+	margin-top:		20%;
 	margin:			20px;
 }
 
@@ -165,8 +168,9 @@ body {
 
 .share {
 	margin:				20px auto;
-	font-size:			75%;
+	font-size:			72%;
 	text-align:			center;
+	line-height: 		2;
 }
 
 .progress {
@@ -185,7 +189,3 @@ footer {
 	height:				90px;
 	border-top:			1px solid gray;
 }
-
-
-
-
