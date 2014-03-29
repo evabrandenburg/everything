@@ -40,6 +40,10 @@ h1 {
 	border:			solid gray 1px;
 }
 
+.top {
+	border-bottom:	solid gray 1px;
+}
+
 .initial {
 	width:			700px;
 	margin:			25px auto;
@@ -161,6 +165,8 @@ body {
 
 .share {
 	margin:				20px auto;
+	font-size:			75%;
+	text-align:			center;
 }
 
 .progress {
@@ -175,8 +181,9 @@ body {
 
 footer {
 	background-color:	blue;
-	width:	960px;
-	height:	90px;
+	width:				960px;
+	height:				90px;
+	border-top:			1px solid gray;
 }
 
 
