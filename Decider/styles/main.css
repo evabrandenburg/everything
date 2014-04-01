@@ -1,6 +1,14 @@
 /* CURRENTLY IN: styles/main.css */
+.controlArrow.next {
+	border-color: transparent transparent transparent #000;
+}
+
+.controlArrow.prev {
+	border-color: transparent #000 transparent transparent;
+}
+
 .name {
-	width:			550px;
+	width:			30%;
 	float:			left;
 	height:			100px;
 	background-color: rgba(0,0,0,0.5);
@@ -17,20 +25,12 @@ h1 {
 }
 
 
-.slant {
-	 -webkit-transform: rotate(-45deg);
-	 margin-top:	0px;
-	 width:			50px;
-	 margin-bottom:	-20px;
-	 font-size:		30px;
-}
-
 .motto { 
-	width:			350px;
+	width:			10%;
 	height:			100px;
 	background-color:	rgba(0,0,0,0.5);
 	color:			#FAE9DE;
-	float:			right;
+	float:			left;
 	margin-top:		20px;
 	margin-right:	19px;
 	border-radius:	2px;
@@ -44,9 +44,9 @@ h1 {
 }
 
 .initial {
-	width:			700px;
-	margin:			25px auto;
-	text-align:		center;
+	width:			5;
+	margin:			2% auto;
+	text-align:		left;
 	font-size:		30px;
 	clear:			both;
 	color:			#FAE9DE;
@@ -59,10 +59,11 @@ body {
 
 
 .decider {
-	width:			960px;
+	width:			100%;
 	overflow:		hidden;
 	margin:			auto;
 	border:			solid #291D14 1px;
+	z-index:		1;
 }
 
 .tool {
@@ -204,9 +205,16 @@ body {
 	border:				1px solid gray;
 }
 
-footer {
+nav {
 	background-color:	#291D14;
-	width:				960px;
+	width:				100%;
 	height:				90px;
 	border-top:			1px #9E8473;
 }
+
+.decider { 
+	position: absolute;
+}
+
+/*bottom two slides postion absolute
+

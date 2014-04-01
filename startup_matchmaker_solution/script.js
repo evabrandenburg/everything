@@ -8,6 +8,14 @@
 
 	//wire up a click event
 
+	mobileButton.on( 
+		'click'
+		, function( e ){
+			e.preventDefault();
+			mobileNav.slideToggle( 'fast' );
+		}
+	);
+
 	//when ckick occurs, do something
-	
+
 })();

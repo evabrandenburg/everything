@@ -4,13 +4,12 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
     <title >Decider</title>
     <link rel='stylesheet' href='styles/reset.css'>
-    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='style/bootstrap.css'>
+     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="styles/jquery.fullPage.css">
     <link rel='stylesheet' href='styles/main.css'>
 </head>
 
 <body>
-	<div class="decider">
 
 		<!--<div class="links">
 		<ul class="nav nav-pills">
@@ -19,45 +18,67 @@
   			<li><a href="#">Messages</a></li>
 		</ul>
 	</div>-->
+<div class="section">
 
-		<div class="top">
+	<div class="slide" data-anchor="slide1">	
+		<div class="question">
 			<div class="name">
 				<h1>DECIDER</h1>
 			</div><!--divclass name-->
 			<div class="motto curly">hate making decisions?<br>never make one again.</div>
-
-			<h2 class="initial">WHAT DO YOU NEED HELP WITH?</h2>
 		</div>
+	</div>
 
-		<div class="tool">
-			<div class="question box">
-				<div class="questionText curly">
-					Who's Right?
+			<!--<h2 class="initial">WHAT DO YOU NEED HELP WITH?</h2>
+		</div>-->
+
+	<div class="slide" data-anchor="slide2">
+		<div class="question box">
+			<div class="questionText">
+				<h1>Who's Right?</h1>
 				</div>
-			</div>
-			<div class="question box curly">
+		</div>
+	</div>
+
+	<div class="slide" data-anchor="slide3">
+			<div class="question box">
 				<div class="questionText">
 					Yes or No?
 				</div>
 			</div>
-			<div class="question box curly">
+	</div>
+
+	<div class="slide" data-anchor="slide4">
+			<div class="question box">
 				<div class="questionText">
 					Which to choose?
 				</div>
 			</div>
-<!--zoom in on question with hovered over... try zoom.js found under hakim.. look in bookmarks-->
+	</div>
+</div>
+
+
+<div class="tool">
+
+	<div class="section">
+
+		<div class="slide" data-anchor="slide5">
 			<div class="event box">
 				<div class="eventQuestion">Who's right?</div>
 
-				<form>
-					<input type="text" class="form-inline one" placeholder=" Beatles">
-				vs
-					<input type="text" class="form-inline one" placeholder=" Rolling Stones">
+				<form class="deciderInput">
+					<fieldset>
+						<input type="text" class="form-inline one" placeholder=" Beatles">
+						vs
+						<input type="text" class="form-inline one" placeholder=" Rolling Stones">
 
-				<button type="button" class="btn btn-primary">DECIDE IT</button>
+						<button type="submit" class="btn btn-primary">DECIDE IT</button>
+					</fieldset>
 				</form>
 			</div><!--event-->
+		</div>
 
+		<div class="slide" data-anchor="slide6">
 			<div class="event box">
 				<div class="eventQuestion">Yes or No?</div>
 					
@@ -67,7 +88,9 @@
 				<button type="button" class="btn btn-primary">DECIDE IT</button>
 				</form>
 			</div>
+		</div>
 
+		<div class="slide" data-anchor="slide7">
 			<div class="event box">
 				<div class="eventQuestion">Choose one.</div>
 
@@ -81,8 +104,9 @@
 				<button type="button" class="btn btn-primary btn-xs">+</button>
 					<button type="button" class="btn btn-primary">DECIDE IT</button>
 				</form>
-
 			</div>
+		</div>
+	</div>
 
 			<div class="result box">
 
@@ -132,7 +156,7 @@
 
 		</div><!--class="tool"-->
 
-		<footer>
+		<nav>
 			<div class="progress">
 			</div>
 			<div class="progress">
@@ -140,10 +164,14 @@
 			<div class="progress">
 			</div>
 
-		</footer>
+		</nav>
 	</div><!--class="decider"-->
 
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="javascript/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.fullPage.min.js"></script>
     <script src='javascript/main.js'></script>
 </body>
 </html>
