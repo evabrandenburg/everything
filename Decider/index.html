@@ -33,7 +33,9 @@
 
 			<!--<h2 class="initial">WHAT DO YOU NEED HELP WITH?</h2>
 		</div>-->
-<section>
+
+<!-- first question-->
+<div class="section">
 	<div class="slide" data-anchor="slide1">
 		<div class="question box">
 			<div class="questionText">
@@ -41,123 +43,133 @@
 				</div>
 		</div>
 	</div>
-</section>
+
+	<div class="slide" data-anchor="slide2">
+		<div class="event box">
+
+			<form class="deciderInput">
+				<fieldset>
+					<input type="text" class="form-inline one" placeholder=" Beatles">
+					vs
+					<input type="text" class="form-inline one" placeholder=" Rolling Stones">
+
+					<button type="submit" class="btn btn-primary">DECIDE IT</button>
+				</fieldset>
+			</form>
+		</div><!--event-->
+	</div>
 
 	<div class="slide" data-anchor="slide3">
-			<div class="question box">
-				<div class="questionText">
-					Yes or No?
-				</div>
-			</div>
-	</div>
+		<div class="result box">
 
-	<div class="slide" data-anchor="slide4">
-			<div class="question box">
-				<div class="questionText">
-					Which to choose?
+			<div class="answer">
+					And the winner is
+			</div>
+
+			<div class="share">
+					Show em who's right 
+					(like they care)?
+				<div class="howShare">
+						email, facebook, twitter
 				</div>
 			</div>
+
+		</div>
 	</div>
 </div>
+<!--end first question-->
 
+<!--start second question-->
 
-<div class="tool">
+<div class="section">
+	<div class="slide" data-anchor="slide1">
+		<div class="question box">
+			<div class="questionText">
+				<h1>Yes or No?</h1>
+				</div>
+		</div>
+	</div>
 
-	<div class="section">
-
-		<div class="slide" data-anchor="slide5">
-			<div class="event box">
-				<div class="eventQuestion">Who's right?</div>
+	<div class="slide" data-anchor="slide2">
+		<div class="event box">
 
 				<form class="deciderInput">
 					<fieldset>
-						<input type="text" class="form-inline one" placeholder=" Beatles">
-						vs
-						<input type="text" class="form-inline one" placeholder=" Rolling Stones">
-
+						<input type="text" class="form-inline two" placeholder=" Should I stay or should I go (now)"> ?
+				
 						<button type="submit" class="btn btn-primary">DECIDE IT</button>
 					</fieldset>
 				</form>
 			</div><!--event-->
-		</div>
+	</div>
 
-		<div class="slide" data-anchor="slide6">
-			<div class="event box">
-				<div class="eventQuestion">Yes or No?</div>
-					
-				<form>
-					<input type="text" class="form-inline two" placeholder=" Should I stay or should I go (now)"> ?
-				
-				<button type="button" class="btn btn-primary">DECIDE IT</button>
-				</form>
+	<div class="slide" data-anchor="slide3">
+		<div class="result box">
+
+			<div class="answer">
+					You're gonna
 			</div>
-		</div>
 
-		<div class="slide" data-anchor="slide7">
-			<div class="event box">
-				<div class="eventQuestion">Choose one.</div>
-
-				<form>
-					<input type="text" class="form-inline three" placeholder=" homework">
-					or
-					<input type="text" class="form-inline three" placeholder=" laundry">
-					or
-					<input type="text" class="form-inline three" placeholder=" sleep">
-					or
-				<button type="button" class="btn btn-primary btn-xs">+</button>
-					<button type="button" class="btn btn-primary">DECIDE IT</button>
-				</form>
+			<div class="share">
+				Tell all your "friends"
+				<div class="howShare">
+						email, facebook, twitter
+				</div>
 			</div>
+
+		</div>
+	</div>
+</div>
+
+<!--end second start third question-->
+
+<div class="section">
+	<div class="slide" data-anchor="slide1">
+		<div class="question box">
+			<div class="questionText">
+				<h1>Choose One.</h1>
+				</div>
 		</div>
 	</div>
 
-			<div class="result box">
+	<div class="slide" data-anchor="slide2">
+		<div class="event box">
 
-				<div class="answer">
-					And the winner is
-				</div>
+				<form class="deciderInput">
+					<fieldset>
+						<input type="text" class="form-inline three" placeholder=" homework">
+						or
+						<input type="text" class="form-inline three" placeholder=" laundry">
+						or
+						<input type="text" class="form-inline three" placeholder=" sleep">
+						or
+						<button type="button" class="btn btn-primary btn-xs">+</button>
+					<button type="button" class="btn btn-primary">DECIDE IT</button>
+					</fieldset>
+				</form>
+			</div><!--event-->
+	</div>
 
-				<div class="share">
-					Show em who's right 
-					(like they care)?
-					<div class="howShare">
-						email, facebook, twitter
-					</div>
-				</div>
+	<div class="slide" data-anchor="slide3">
+		<div class="result box">
 
-			</div>
-
-			<div class="result box">
-
-				<div class="answer">
-					You're gonna
-				</div>
-
-				<div class="share">
-					Tell all your "friends"
-					<div class="howShare">
-						email, facebook, twitter
-					</div>
-				</div>
-
-			</div>
-
-			<div class="result box">
-
-				<div class="answer">
+			<div class="answer">
 					You're going with
-				</div>
-
-				<div class="share">
-					Share with everyone and their mom
-					<div class="howShare">
-						email, facebook, twitter
-					</div>
-				</div>
-
 			</div>
 
-		</div><!--class="tool"-->
+			<div class="share">
+					Share with everyone and their mom
+				<div class="howShare">
+						email, facebook, twitter
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!--end third question-->
+
 
 		<nav>
 			<div class="progress">
@@ -176,6 +188,7 @@
     <script type="text/javascript" src="javascript/jquery.slimscroll.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.fullPage.min.js"></script>
     <script src='javascript/main.js'></script>
+    
 </body>
 </html>
 

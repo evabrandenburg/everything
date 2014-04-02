@@ -53,17 +53,18 @@ h1 {
 }
 
 body {
-	background-image: url(background.jpg);
+	background-image: 	url(background.jpg);
 	background-size:	cover;
+	top:				-600px;
+
 }
 
 
 .decider {
-	width:			100%;
+	width:			960px;
 	overflow:		hidden;
 	margin:			auto;
 	border:			solid #291D14 1px;
-	z-index:		1;
 }
 
 .tool {
@@ -74,9 +75,11 @@ body {
 }
 
 .box {
-	width:			205px;
-	height:			170px;
-	margin:			57px;
+	width:			800px;
+	height:			350px;
+	margin:			auto;
+	margin-bottom:	60px;
+	margin-top:		-30px;
 	background-color:	rgba(0,0,0,0.5);
 	color:			#FAE9DE;
 	border-radius:  2px;
@@ -85,19 +88,16 @@ body {
 	overflow:		none;
 }
 
-.question {
-	float:			left;
-}
 
 .questionText {
 	text-align:		center;
-	font-size: 		200%;
-	margin-top:		40px;
-	margin:			20px;
+	font-size: 		80px;
+	margin:			auto;
+	margin-top:		110px;
+	letter-spacing:	5px;
 }
 
 .event {
-	float:			left;
 	text-align:		center;
 }
 
@@ -107,7 +107,6 @@ body {
 }
 
 .result {
-	float:			left;
 }
 
 
@@ -131,22 +130,23 @@ body {
 }
 
 .one {
-	width:				80px;
-	height:				10px;
-	font-size:			50%;
+	width:				350px;
+	height:				45;
+	font-size:			40px;
+	margin-top:				50px;
 
 }
 
 .two {
-	width:				150px;
-	height:				10px;
-	font-size:			50%;
+	width:				300px;
+	height:				55px;
+	font-size:			45px;
 }
 
 .three {
-	width:				35px;
-	height:				10px;
-	font-size:			50%;
+	width:				200px;
+	height:				55px;
+	font-size:			45px;
 }
 
 .btn-primary {
@@ -155,6 +155,9 @@ body {
 	background-color:	#9E8473;
 	border-radius:		2px;
 	border:				1px #FAE9DE;
+	width:				300px;
+	height:				150px;
+	font-size:			60px;
 }
 
 .btn-primary:hover {
@@ -163,43 +166,31 @@ body {
 	color:				#9E8473;
 }
 
-.nav-pills {
-	color:				#FAE9DE;
-	background-color:	#9E8473;
-	border-radius:		2px;
-	border:				1px #FAE9DE;
-}
-
-.nav-pills:hover {
-	background-color:	#291D14;
-	border:				1px solid #9E8473;
-	color:				#9E8473;
-}
-
 .btn-xs {
 	margin-top:			-5px;
+	width:				20px;
+	height:				20px;
 }
 
 .answer {
 	border:		1px solid black;
-	width:				150px;
-	height:   			50px;
+	width:				700px;
+	height:   			100px;
 	margin:				20px auto;
-	font-size: 			120%
+	font-size: 			70px;
 }
 
 .share {
-	margin:				20px auto;
-	font-size:			72%;
-	text-align:			center;
-	line-height: 		2;
+	width:				800px;
+	margin:			    auto;
+	font-size:			40px;
 }
 
 .progress {
 	height:				50px;
 	width:				50px;
 	border-radius:		50%;
-	background-color:	white;
+	background-color:	#FAE9DE;
 	float:				left;
 	margin:				20px;
 	border:				1px solid gray;
@@ -210,11 +201,13 @@ nav {
 	width:				100%;
 	height:				90px;
 	border-top:			1px #9E8473;
+	position:			fixed;
+	bottom:				0px;
 }
 
-.decider { 
+/*.decider { 
 	position: absolute;
-}
+}*/
 
 /*bottom two slides postion absolute
 
