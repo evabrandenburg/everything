@@ -1,9 +1,11 @@
+
+
 /* CURRENTLY IN: javascript/main.js */
 
 (function(){	// protect the puffins!
 
-	var todoForm = $( '.todo-list' );
-	var tasksHolder = $( '.tasks' );
+	var todoForm = $( '.one' );
+	var tasksHolder = $( '.result' );
 	todoForm.on(
 		'submit'
 		, function( e ) {
@@ -20,24 +22,24 @@
 			}
 
 			// if we made it here, then task is valid 
-			var div = $( '<div/>' );
-			div.addClass( 'list-group-item' );
+			var div = $( '.result' );
+			div.addClass( 'answer' );
 			div.text( task );
 
 			// create the 'x' button
-			var button = $( '<button/>' );
+			/*var button = $( '<button/>' );
 			button.addClass( 'close' );
 			button.attr( 'type', 'button' );
 			button.text( 'x' );
 
-			div.append( button );
+			div.append( button );*/
 
 			tasksHolder.append( div );
-			$( '#my-task' ).val( '' );
+			$( '#one1' ).val( '' );
 		}
 	);
 
-	// bind a click event to all list items
+	/*// bind a click event to all list items
 	tasksHolder.on(
 		'click'
 		, '.list-group-item'
@@ -52,7 +54,5 @@
 		, function( e ) {
 			$( this ).parent().remove();
 		}
-	);
+	);*/
 })();
-
-

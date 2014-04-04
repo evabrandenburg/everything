@@ -21,18 +21,18 @@
 <div class="section">
 
 	<div class="slide" data-anchor="slide1">	
-		<div class="question">
+		<div class="initial">
 			<div class="name">
-				<h1>DECIDER</h1>
+				DECIDER
 			</div><!--divclass name-->
-			<div class="motto curly">hate making decisions?<br>never make one again.</div>
-			<h1>Click down to see your choices</h1>
+			<div class="motto">hate making decisions?<br>never make one again.</div>
+			<div>
+				<button class="btn-primary first"><h1>Get Started</h1>
+			</button>
+			</div>
 		</div>
 	</div>
 </div>
-
-			<!--<h2 class="initial">WHAT DO YOU NEED HELP WITH?</h2>
-		</div>-->
 
 <!-- first question-->
 <div class="section">
@@ -49,9 +49,9 @@
 
 			<form class="deciderInput">
 				<fieldset>
-					<input type="text" class="form-inline one" placeholder=" Beatles">
+					<input class="form-control  one" id="one3" type="text" placeholder="Beatles">
 					vs
-					<input type="text" class="form-inline one" placeholder=" Rolling Stones">
+					<input class="form-control  one" id="one2" type="text" placeholder="Rolling Stones">
 
 					<button type="submit" class="btn btn-primary">DECIDE IT</button>
 				</fieldset>
@@ -95,8 +95,8 @@
 
 				<form class="deciderInput">
 					<fieldset>
-						<input type="text" class="form-inline two" placeholder=" Should I stay or should I go (now)"> ?
-				
+						<input class="form-control  two" id="two1" type="text" placeholder="Should I stay or should I go now?">
+
 						<button type="submit" class="btn btn-primary">DECIDE IT</button>
 					</fieldset>
 				</form>
@@ -137,13 +137,16 @@
 
 				<form class="deciderInput">
 					<fieldset>
-						<input type="text" class="form-inline three" placeholder=" homework">
+						<input class="form-control  three" id="three1" type="text" placeholder="laundry">
+
 						or
-						<input type="text" class="form-inline three" placeholder=" laundry">
+						<input class="form-control  three" id="three2" type="text" placeholder="Homework">
+
 						or
-						<input type="text" class="form-inline three" placeholder=" sleep">
+						<input class="form-control  three" id="three3" type="text" placeholder="Rolling Stones">
+
 						or
-						<button type="button" class="btn btn-primary btn-xs">+</button>
+						<button type="button" class="btn  btn-xs">+</button>
 					<button type="button" class="btn btn-primary">DECIDE IT</button>
 					</fieldset>
 				</form>

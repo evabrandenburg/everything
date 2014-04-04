@@ -1,21 +1,30 @@
 /* CURRENTLY IN: javascript/main.js */
-/*(function(){
 
-	var dInput = $( '.deciderInput' ); 
 
-	dInput.on(
+
+(function(){
+/*
+	var todoForm = $( '.deciderinput' );
+	todoForm.on(
 		'submit'
-		, function(e){
+		, function( e ) {
 			e.preventDefault();
-			var formInput = $( '.form-inline' ).val(); //grab value of input and save to formInput
-			//validate input
-			if ( formInput == "" || formInput == " ") { //if nothing in task alert to fix
-				alert( "enter something please!");
-				//there is nothing left to do
-				return;//stops function 
+
+			// grab the task in the input field
+			var task = $( '#one1' ).val();
+
+			// validate task
+			if ( task == "" || task == " " ) {
+				alert('Enter a task, please!');
+				// there is nothing left to do, so peace
+				return;
 			}
-	);
-})();*/
+
+	);*/
+
+
+
+
 $.fn.fullpage( {
 	resize: true
 } );
@@ -24,9 +33,4 @@ $.fn.fullpage( {
 		$.fn.fullpage.moveSectionDown();
 	})
 
-      /*$.fn.scrollPath("getPath")
-		// Move to 'start' element
-		.moveTo(400, 50, {name: "start"})
-		// Line to 'description' element
-		.lineTo(400, 800, {name: "description"})*/
-   
+})();
