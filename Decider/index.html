@@ -47,13 +47,17 @@
 	<div class="slide" data-anchor="slide2">
 		<div class="event box">
 
-			<form class="deciderInput">
+			<form class="form-inline deciderInput">
 				<fieldset>
-					<input class="form-control  one" id="one3" type="text" placeholder="Beatles">
-					vs
-					<input class="form-control  one" id="one2" type="text" placeholder="Rolling Stones">
+					<div class="form-group">
+						<input class="form-control one" id="one1" type="text" placeholder="Beatles">
+						vs
+						<input class="form-control one" id="one2" type="text" placeholder="Rolling Stones">
+					</div>
 
-					<button type="submit" class="btn btn-primary">DECIDE IT</button>
+					<div class="form-group">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
 				</fieldset>
 			</form>
 		</div><!--event-->
@@ -62,17 +66,11 @@
 	<div class="slide" data-anchor="slide3">
 		<div class="result box">
 
-			<div class="answer">
-					And the winner is
-			</div>
+			<div class="col-lg-6">
+          	  <h2>And the winner is</h2>
+            	<div class="answer list-group"></div>
+            </div>
 
-			<div class="share">
-					Show em who's right 
-					(like they care)?
-				<div class="howShare">
-						email, facebook, twitter
-				</div>
-			</div>
 
 		</div>
 	</div>
