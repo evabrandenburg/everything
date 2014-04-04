@@ -30,11 +30,11 @@
 var rando = Math.random();
       
 console.log( rando );
-      
-if(rando < 0.5) { var finalChoice = choice1;
-} 
-else {var finalChoice = choice2;
-}
+    
+	if(rando < 0.5) { var finalChoice = choice1;
+	} 
+	else {var finalChoice = choice2;
+	}
       
       
 

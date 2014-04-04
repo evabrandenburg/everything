@@ -158,6 +158,18 @@ form {
 	font-size:			40px;
 }
 
+.toSlide {
+	margin-top:			15px;
+	
+	border-radius:		4px;
+	
+	width:				320px;
+	height:				120px;
+	font-size:			60px;
+	margin:				auto;
+	margin-top:				40px;
+
+}
 .btn-primary {
 	margin-top:			15px;
 	color:				#FAE9DE;
