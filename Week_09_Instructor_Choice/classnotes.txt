@@ -1,0 +1,36 @@
+Google Analytics
+** how to get setup and track stuff
+** google.com/analytics
+
+APIs ( need some suggestions for this though... )
+** XKCD: http://xkcd.com/json.html -- let's make an app out of this! with slick.js
+** google maps API
+** instagram API
+
+JSON javascript object notation
+
+JAIL jquery asynchronous image loader plugin
+
+{}mean it's a an object
+
+Cookies
+** set and get cookies
+** http://www.w3schools.com/js/js_cookies.asp
+** jquery cookie: https://github.com/carhartl/jquery-cookie
+
+Skrollr
+** how to use: https://github.com/Prinzhorn/skrollr
+
+Chrome Extensions
+** basic set up
+** https://developer.chrome.com/extensions/getstarted
+** http://extensionizr.com/!#{"modules":["hidden-mode","with-bg","with-persistent-bg","no-options","no-override"],"boolean_perms":[],"match_ptrns":[]}
+** go over how the TODO list works
+
+Social Media Integration:
+** https://developers.facebook.com/docs/plugins/share-button/
+** https://about.twitter.com/resources/buttons
+
+GitHub (in terminal)
+** maybe?
+** git status, git add, git diff | vim - -R, git commit, git push -u origin source, etc

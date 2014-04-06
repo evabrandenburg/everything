@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQfxmGYe_Bc65M-IM8xvAKWubupPmk68w&sensor=true">
+    </script>
+    <script type="text/javascript">
+      // function initialize() {
+      //   var mapOptions = {
+      //     center: new google.maps.LatLng(-34.397, 150.644),
+      //     zoom: 8
+      //   };
+      //   var map = new google.maps.Map(document.getElementById("map-canvas"),
+      //       mapOptions);
+      // }
+      // google.maps.event.addDomListener(window, 'load', initialize);
+
+      var geocoder;
+      function initialize() {
+        geocoder = new google.maps.Geocoder();
+        geocoder.geocode( { 'address': '10 E 21st Street, New York' }, function(results, status) {
+          console.log( results );
+        });
+      }
+
+      initialize();
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"/>
+    <!-- 
+      GEOCODING: https://developers.google.com/maps/documentation/javascript/geocoding 
+      Geocoding is the process of converting addresses (like "1600 Amphitheatre Parkway, Mountain View, CA") into geographic coordinates (like latitude 37.423021 and longitude -122.083739), which you can use to place markers or position the map.
+    -->
+  </body>
+</html>

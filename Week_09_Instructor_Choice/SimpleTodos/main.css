@@ -1,0 +1,10 @@
+#the__todo-app .strike {
+    text-decoration: line-through;
+    color: #ffffff;
+    background-color: #3fb618;
+    border-color: #4e9f15;
+}
+
+#the__todo-app .tasks.list-group {
+    text-align: center;
+}

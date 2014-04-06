@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title >XKCD</title>
+    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body>
+
+<div class="jumbotron"><h1>WHAT</h1></div>
+
+ <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+    <script src='javascript/main2.js'></script>
+    <script>
+
+(function(){
+    //1 generate random number
+    	//a save random number to var
+    	var _TOTAL_ = 614;
+
+    	var randomNum =Math.random();
+ 
+    	//b multiply 614 by random number we saved
+    	var myComicNum = randomNum * _TOTAL_;
+    	//c round to get integer
+
+    	myComicNum = Math.round( myComicNum );
+
+    //2 build url w/ new random #
+
+    var _URL_ = 'http://xkcd.com/' 	+ 
+    			myComicNum			+
+    			'/info.0.json';
+    alert( _URL_ );
+
+    //3 make ajax request
+
+    $.get( _URL_ ) , function( data ) {
+    	console.log( data );
+    }, 'jsonp' );
+
+})();
+
+    </script>
+</body>
+</html>
